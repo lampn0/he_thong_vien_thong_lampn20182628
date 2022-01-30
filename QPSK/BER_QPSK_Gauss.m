@@ -9,8 +9,8 @@ for i=1:2:length(x)
         S((i+1)/2)=exp(1i*5*pi/4);
     elseif (x(i)==1) && (x(i+1) ==0)
         S((i+1)/2)=exp(1i*7*pi/4);
-    end;
-end;
+    end
+end
 SNR_db = 0:1:8;
 for i=1:length(SNR_db)
    c(i) = cha_Gauss(SNR_db(i),S,x); 

@@ -1,5 +1,5 @@
 clear;
-SNR_db = 10;
+SNR_db = 20;
 x=round(rand(1,10000)); %sinh ra m?t chu?i bit ng?u nhiên có 10000 ph?n t?
 for i=1:2:length(x)
     if (x(i)==0) && (x(i+1) ==0)

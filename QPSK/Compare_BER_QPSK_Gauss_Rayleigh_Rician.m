@@ -9,8 +9,8 @@ for i=1:2:length(x)
         S((i+1)/2)=exp(1i*5*pi/4);
     elseif (x(i)==1) && (x(i+1) ==0)
         S((i+1)/2)=exp(1i*7*pi/4);
-    end;
-end;
+    end
+end
 
 k1=10; %Rician factor
 mean=sqrt(k1/(k1+1));% mean

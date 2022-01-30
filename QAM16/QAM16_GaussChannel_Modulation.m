@@ -1,6 +1,6 @@
 clear;
 N = 2*10^5;
-SNR_db = 10;
+SNR_db = 20;
 x=round(rand(1,N));
 for i=1:4:length(x)
     if (x(i)==0) && (x(i+1) ==0)&& (x(i+2)==0) && (x(i+3) ==0)
